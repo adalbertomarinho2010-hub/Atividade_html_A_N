@@ -1,0 +1,49 @@
+.nasa{
+    height: 5vh;
+    width: 5vw;
+    margin-left: -100px;
+}
+
+.espaço{
+    height: 65vh;
+    width: 99vw;
+    box-sizing: border-box;
+    display: block;
+    object-fit: cover;
+    margin-right: -10px;
+}
+
+.filho{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    height: 10vh;
+    width: 99vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.texto_topo{
+    color: #ffffff;
+    text-align: justify;
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: -800px;
+}
+.texto_1{
+    margin-left: 50px;
+
+}
+.texto_2{
+    margin-left: 700px;
+}
+
+.texto_3{
+    margin-left: 800px;
+}
