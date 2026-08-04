@@ -34,16 +34,15 @@
     text-align: justify;
     font-style: normal;
     font-weight: bolder;
-    margin-left: -800px;
 }
 .texto_1{
-    margin-left: 50px;
+    /* margin-left: 50px; */
 
 }
 .texto_2{
-    margin-left: 700px;
+    /* margin-left: 700px; */
 }
 
 .texto_3{
-    margin-left: 800px;
+    /* margin-left: 800px; */
 }
