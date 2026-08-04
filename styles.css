@@ -1,48 +1,97 @@
-.nasa{
-    height: 5vh;
-    width: 5vw;
-    margin-left: -100px;
-}
-
-.espaço{
-    height: 65vh;
-    width: 99vw;
-    box-sizing: border-box;
-    display: block;
-    object-fit: cover;
-    margin-right: -10px;
-}
-
-.filho{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.topo{
-    height: 10vh;
-    width: 99vw;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-.texto_topo{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0b;
     color: #ffffff;
     text-align: justify;
     font-style: normal;
     font-weight: bolder;
 }
-.texto_1{
-    /* margin-left: 50px; */
 
-}
-.texto_2{
-    /* margin-left: 700px; */
+.topo {
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
 
-.texto_3{
-    /* margin-left: 800px; */
+.nasa {
+    height: 45px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #cc0000;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+}
+
+.imagem-destaque {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-texto {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.hero-texto h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-texto p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.botao-destaque {
+    background-color: #BF2232;
+    color: #ffffff;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.botao-destaque:hover {
+    background-color: #D9233A;
+}
+
+.rodape {
+    background-color: #000000;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    border-top: 1px solid #222;
 }
