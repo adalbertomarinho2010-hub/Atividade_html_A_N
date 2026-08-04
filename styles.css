@@ -96,6 +96,29 @@ body {
     border-top: 1px solid #222;
 }
 
-.hero-container2{
-    
+.hero-container2 {
+    position: relative;
+    width: 100%;
+    height: 360px; /* altura da div */
+    overflow: hidden;
+}
+
+.hero-container2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%); /* 0% fica totalmente preto, 100% é o normal */
+
+}
+
+.hero-texto2 {
+  color: white;            /* Cor do texto para dar contraste */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; 
+  position: absolute;
+  top: 60%; /*empurra para a esquerda */
+  left: 40%; /* empurra para a direita */
+  transform: translate(-50%, -50%);
+
 }
