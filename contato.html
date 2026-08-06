@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topo">
+            <img src="nasa.png" class="nasa" alt="Logo NASA">
+            <nav class="menu">
+                <a href="home.html">Home</a>
+                <a href="sobre.html">Sobre a Nasa</a>
+                <a href="novidades.html">Novidades</a>
+                <a href="espaço.html">Espaço</a>
+                <a href="clima_terra.html">Clima e Terra</a>
+                <hr class="linha">
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-container">
+            <hr class="linha">
+            <img src="contato.png" class="imagem-contato" alt="foto principal">
+
+            <div class="hero-texto-contato">
+                <h1>Deseja entrar em contato conosco?</h>
+                <p>Preencha o formulário com suas informações  e o que você necessita!</p>
+                <a href="#" class="botao-destaque">Formulário abaixo!</a>
+            </div>
+        </div>
+
+        <div class="hero-info-con">
+            <hr class="linha">
+            <div class="hero-info-contato">
+                <h1>Formulário</h1>
+
+                <div class="formulario">
+                    <form action="/enviar" method="post">
+                        <br><label for="nome">Nome:</label><br>
+                        <br><input type="text" id="nome" placeholder="Insira o seu nome" required><br>
+
+                        <br><label for="email">Email:</label><br>
+                        <br><input type="email" id="email" placeholder="Insira o seu email" required><br>
+
+                        <br><label for="mensagem">Motivo do seu contato</label><br>
+                        <br><textarea id="mensagem" name="mensagem" rows="5" cols="30" placeholder="Digite sua mensagem aqui..." required></textarea><br>
+
+
+                        <br><button type="submit" id="botao">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <footer class="rodape">
+        <hr class="linha">
+        <p>© 2024 NASA. Todos os direitos reservados.</p>
+        <p>Endereço da sede: Localização: 300 E. Street SW, Washington, DC 20546, Estados Unidos.</p>
+        <p>Contato Telefônico: Telefone geral: +1 (202) 358-0000</p>
+        <p>contatos: hq-media@mail.nasa.gov</p>
+    </footer>
+    
+</body>
+</html>

@@ -51,6 +51,42 @@ body {
     object-fit: cover;
     display: block;
     margin-top: 10px;
+    filter: brightness(0.7);
+}
+
+.imagem-contato{
+    width:100%;
+    height: 45vh;
+    object-fit: cover;
+    display: block;
+    margin-top: 10px;
+    filter: brightness(0.6);
+}
+
+.hero-texto-contato {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.hero-texto-contato h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.hero-texto-contato p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    white-space: normal;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero-texto {
@@ -69,14 +105,6 @@ body {
     white-space: nowrap;
 }
 
-.hero-texto h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    white-space: nowrap;
-
-}
-
 .hero-texto p {
     font-size: 25px;
     margin-bottom: 25px;
@@ -88,7 +116,7 @@ body {
 }
 
 .botao-destaque {
-    background-color: #BF2232;
+    background-color: #3107a559;
     color: #ffffff;
     padding: 14px 28px;
     font-size: 16px;
@@ -124,11 +152,29 @@ body {
     height: 900px;
 }
 
+.hero-info-con {
+    background-color: #000000;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    border-top: 1px solid #222;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
 .hero-info-texto{
     text-align: left;
     font-size: 20px;
     padding-top: 45px;
     padding-left: 400px;
+}
+
+.hero-info-contato{
+    text-align: left;
+    font-size: 30px;
+    padding-top: 45px;
+    padding-left: 50px;
 }
 
 .noticias-home{
@@ -147,3 +193,22 @@ body {
     margin-top: 10px;
 }
 
+#nome{
+    height: 40px;
+    width: 300px;
+}
+
+#email{
+    height: 40px;
+    width: 300px;
+}
+
+#mensagem{
+    height: 80px;
+    width: 400px;
+}
+
+#botao{
+    height: 40px;
+    width: 200px;
+}
