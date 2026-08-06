@@ -141,9 +141,75 @@ body {
     padding-left: 150px;
 }
 
-.linha{
-    color: #ffffff;
-    font-weight: 20px;
-    margin-top: 10px;
+
+
+.sobre-hero {
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('moon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
 }
 
+.sobre-hero-conteudo {
+    max-width: 800px;
+}
+
+.sobre-hero-conteudo h1 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.sobre-hero-conteudo .texto-cinza {
+    font-size: 18px;
+    color: #b0b0b0;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.sobre-conteudo-branco {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 60px;
+}
+
+.sobre-coluna-texto {
+    flex: 1;
+}
+
+.sobre-coluna-texto h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.sobre-coluna-texto p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.sobre-coluna-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-coluna-imagem img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #000000;
+    border-radius: 2px;
+}
